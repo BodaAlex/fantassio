@@ -4,18 +4,20 @@ FANTASSIO is an online-store website
 
 ## Screenshots
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+### Index
 
-```bash
-pip install foobar
-```
+<img src="/readme-img/index1.png">
+
+Scroll down
+
+<img src="/readme-img/index2.png">
+
+### Selected Product
+
+<img src="/readme-img/produs1.png">
+
+### Footer
+
+<img src="/readme-img/produs2.png">
 
 ## GIF`s
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
