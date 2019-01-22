@@ -1,0 +1,211 @@
+/* Global -------------------------------------------------------------> */
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Button ------------------------------> */
+.btn {
+    background-color: 1797C0;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+.btn:hover {
+    background-color: #177B9B;
+}
+/* Navigation bar -------------------------------------------------------> */
+header {
+    height: 60px;
+    background-color: #1797C0;
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+    padding-top: 20px;
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    padding: 21px 32px;
+    color: white;
+    transition: 250ms;
+}
+
+header nav ul li a:hover {
+    background-color: #177B9B;
+    color: white;
+}
+
+/* Logo -----------------------------> */
+.logo {
+    float: left;
+    padding-top: 15px;
+}
+
+/* Showcase --------------------------------------------------------> */
+.showcase {
+    height: 400px;
+    line-height: 90px;
+    color: white;
+    margin-bottom: 50px;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../img/sales.jpg");
+    background-size: cover;
+    background-position: 0 -400px;
+}
+
+/* Flex container - Produse -------------------------------------------> */
+/* Main flex container ----------------> */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Produse----------------------------> */
+.flex-item {
+    width: 30%;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+.produse h1 {
+    margin-bottom: 30px;
+}
+
+/* Imagine produs --------> */
+.img-produs {
+    width: 100%;
+    height: 200px;
+    background-color: #177B9B;
+}
+
+/* Newsletter ----------------------------------------------------------> */
+.newsletter {
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding: 50px 10px;
+}
+
+.newsletter .btn {
+    background-color: #F7FF16;
+    color: black;
+}
+/* Itemele din newsletter ----------------> */
+.flex-item-2 {
+    width: 50%;
+    height: 300px;
+    line-height: 70px;
+}
+
+.img {
+    background-color: #F7FF16;
+}
+
+input {
+    height: 52px;
+    width: 400px;
+}
+
+/* Footer ----------------------------------------------------> */
+footer {
+    height: 150px;
+    padding-top: 60px;
+    background-color: #1797C0;
+    color: white;
+}
+
+/* Stilizare content-----------> */
+footer a {
+    color: white;
+}
+
+footer h1 {
+    font-size: 5em;
+}
+
+.flex-item-3 ul {
+    list-style: none;
+}
+/* Aliniere content------------> */
+.flex-item-3 {
+    align-content: center;
+}
+
+/* PRODUS SELECTAT ----------------------------------------------------------------> */
+/* Left Flex */
+.left-flex {
+    width: 800px;
+    /* width: 50%;; */
+}
+
+.container-produs h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.container-produs {
+    margin-top: 50px;
+}
+
+.primary-image {
+    width: 800px;
+    /* width:100%; */
+    height: 420px;
+    background-color: #177B9B;
+    margin-bottom: 50px;
+}
+
+.secondary-image {
+    width: 150px;
+    height: 150px;
+    background-color: #2EB7E2;
+}
+
+/* CU ASTA INCERC SA FAC SAGETILE(hint: nu merge) */
+/* .secondary-image:first-of-type::before {
+    content:'';
+    width: 50px;
+    height: 50px;
+    background-color: red;
+} */
+
+.logo-produs {
+    width: 50px;
+    height: 50px;
+    background-color: #177B9B;
+}
+
+.similar {
+    width: 150px;
+    height: 150px;
+    background-color: #177B9B;
+}
+
+.right-flex {
+    align-items: space-between; /* ce plm nu merge asta. nici aici nici mai sus */
+}
+
+.footer-other {
+    margin-top: 50px;
+}
