@@ -1,6 +1,6 @@
 # FANTASSIO
 
-FANTASSIO is an online-store website. This is a personal project to imrpove on my HTML5, CSS3 skills. Also the goal is to learn something new, like Github and Bitcbucket platforms (improving teamwork and syncrhonyzing with other developers) and perhaps some back-end
+FANTASSIO is an online-store website. This is a personal project to improve on my HTML5, CSS3 skills. Also the goal is to learn something new, like Github and Bitbucket platforms (improving teamwork and syncrhonizing with other developers) and perhaps learn some back-end
 
 ## Screenshots
 
